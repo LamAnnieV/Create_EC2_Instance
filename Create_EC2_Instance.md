@@ -14,5 +14,5 @@ By:  Annie V Lam - Kura Labs
 8.  Under Instance type, select "t2.micro"
 9.  Under Key pairogin), select a key pair
 10.  Network settings, select "Select existing security group"
-11.  In common security groups, select one that has port 8080 (To create a new security group:  [Create Key Pair](Create_Key_Pair.md)
+11.  In common security groups, select one that has port 8080 (To create a new security group:  [Create Key Pair](Create_Key_Pair.md))
 12.  
