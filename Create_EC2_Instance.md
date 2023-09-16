@@ -15,5 +15,6 @@ By:  Annie V Lam - Kura Labs
 9.  Under Key pairogin), select a key pair
 10.  Network settings, select "Select existing security group"
 11.  In common security groups, select a key pair (To create a new security group:  [Create Key Pair](Create_Key_Pair.md))
-12.  Under Network setting, select "Select existing Security group" (To create a security group:  [Create](Create_Key_Pair.md))
+12.  Under Network setting, select "Select existing Security group" (To create a security group:  [Create](Create_Security_Group.md))
 13.  Select a security group that has port 8080
+14.  Launch instance
