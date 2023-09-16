@@ -4,7 +4,7 @@ September 15, 2023
 
 By:  Annie V Lam - Kura Labs
 
-1.  Navigate to https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/home
+1.  Navigate to https://us-east-1.console.aws.amazon.com
 2.  Search "EC2"
 3.  Select "EC2"
 4.  Select "Instances"
