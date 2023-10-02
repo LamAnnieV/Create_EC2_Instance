@@ -13,11 +13,15 @@ By:  Annie V Lam - Kura Labs
 6.  Give a Name
 7.  Under Application and OS Images, select "Ubuntu"
 8.  Under Instance type, select an instance type
-9.  Under Key pair (login), select a key pair or see below to create a key pair
-10. Under Network settings, select "Select existing security group" (If selecting "Create security group, see below)
-11. Select a security group that has port 8080
-12. Select "Launch instance"
-13. To see if the instance is reachable, in a different instance ping it $ping -c 4 ip_address 
+9.  Under Key pair (login), select a key pair (or see below to create a key pair)
+10. Under Network settings, select "Edit"
+11. Under VPC, choose your VPC
+12. Under Subnet, choose your VPC
+13. Under Auto-assign public IP, select "Enable"
+14. Under Firewall (security groups), select "Select existing security group" (If selecting "Create security group, see below)
+15. Select a security group that has all the ports you need
+16. Select "Launch instance"
+17. To see if the instance is reachable, in a different instance ping it $ping -c 4 ip_address 
 
 ### Create a Keypair
 1.  Select "Create new key pair"
